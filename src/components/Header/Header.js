@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
       <img
         className="header__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+        src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
       />
 
       <div className="header__search">
