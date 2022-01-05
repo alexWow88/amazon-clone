@@ -1,17 +1,18 @@
 import React from "react";
 import "./Header.css";
+import SearchIcon from "@mui/icons-material/Search";
 
 const Header = () => {
   return (
     <div className="header">
       <img
         className="header__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+        src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
       />
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />
-        {/* Logo */}
+        <SearchIcon className="header__searchIcon" />
       </div>
 
       <div className="header__nav">
