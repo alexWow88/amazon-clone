@@ -1,4 +1,5 @@
 import React from "react";
+import './Product.css';
 
 const Product = () => {
   return (
@@ -19,6 +20,7 @@ const Product = () => {
         src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
         alt=""
       />
+      <button>Add to Basket</button>
     </div>
   );
 };
