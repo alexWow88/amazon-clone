@@ -12,7 +12,7 @@ const Login = () => {
         />
       </Link>
       <div className="login__container">
-        <h1>Sign in</h1>
+        <h1>Sign-in</h1>
         <form>
           <h5>E-mail</h5>
           <input type="text" />
