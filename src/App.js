@@ -2,20 +2,21 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Checkout from "./components/Checkout/Checkout";
+import Login from "./components/Login/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="app">
-        <Header />
         <Routes>
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/checkout" element={<><Header /><Checkout /></>} />
+          <Route path="/" element={<><Header /><Home /></>} />
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
